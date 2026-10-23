@@ -134,7 +134,7 @@ function FlippingEmail({ email }: { email: string }) {
         <div
           className="font-nohemi text-lg md:text-xl text-white/60 hover:text-white transition-colors backface-hidden"
         >
-          Email Me →
+          联系我 →
         </div>
         {/* Back */}
         <div
@@ -164,15 +164,16 @@ export function FooterSection() {
         <div className="flex flex-col items-center justify-center text-center w-full">
           {/* Section label */}
           <span className="font-nohemi text-xs font-medium uppercase tracking-[0.3em] text-white/40 mb-8">
-            Let&apos;s Connect
+            保持联系
           </span>
 
-          {/* Big CTA headline - Massive Harmond Typography */}
+          {/* Big CTA headline */}
           <h2 className="font-harmond text-[15vw] sm:text-[12vw] md:text-[10vw] lg:text-[12vw] font-bold tracking-tight text-white leading-[0.8] mb-8"
             style={{
               textShadow: "0 0 100px rgba(59,130,246,0.3), 0 0 200px rgba(139,92,246,0.2)",
             }}
           >
+            {/* 保留英文大写以获得最佳排版效果，你也可以换成"联系""合作" */}
             LET&apos;S
             <br />
             TALK
@@ -180,14 +181,13 @@ export function FooterSection() {
 
           {/* Subtext */}
           <p className="font-nohemi text-lg md:text-xl text-white/50 max-w-lg mb-12">
-            Have a project in mind? Let&apos;s create something extraordinary
-            together.
+            有新的项目想法？或是想要交流动画与视觉设计？期待与你携手创造非凡的视觉体验。
           </p>
 
           {/* CTA Button with Magnetic Effect */}
           <MagneticButton
             as="a"
-            href="mailto:dev.sufyaan@gmail.com"
+            href="mailto:3059966438@qq.com"
             strength={0.4}
             className="group"
           >
@@ -198,7 +198,7 @@ export function FooterSection() {
               "group-hover:bg-accent-blue group-hover:text-white",
               "group-hover:shadow-[0_0_40px_rgba(59,130,246,0.5)]"
             )}>
-              Start a Project
+              开启合作
               <svg className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
@@ -207,12 +207,13 @@ export function FooterSection() {
 
           {/* Email flip */}
           <div className="mt-12">
-            <FlippingEmail email="dev.sufyaan@gmail.com" />
+            <FlippingEmail email="3059966438@qq.com" />
           </div>
 
           {/* Social links with magnetic effect */}
           <div className="mt-16 flex items-center gap-6 flex-wrap justify-center">
-            {["Twitter", "GitHub", "LinkedIn", "Dribbble"].map((social) => (
+            {/* 你可以把 href="#" 换成你的实际主页链接 */}
+            {["Bilibili", "ArtStation", "Weibo", "Xiaohongshu"].map((social) => (
               <MagneticButton
                 key={social}
                 as="a"
@@ -233,10 +234,10 @@ export function FooterSection() {
         <div className="swiss-container">
           <div className="flex flex-col items-center justify-center gap-2 text-center">
             <p className="font-nohemi text-xs text-white/40">
-              © {new Date().getFullYear()} Sufyaan. All rights reserved.
+              © {new Date().getFullYear()} 我的动画作品集. 保留所有权利。
             </p>
             <p className="font-nohemi text-xs text-white/40">
-              GitHub: dev-sufyaan | Designed & Built with ♥ and lots of ☕
+               Designed & Built with ♥ and lots of ☕
             </p>
           </div>
         </div>
