@@ -36,15 +36,16 @@ const GlowText = memo(function GlowText({
 });
 
 export function AboutSection() {
+  // 这里可以替换成你常用的软件或技能
   const skills = [
-    "React",
-    "Next.js",
-    "TypeScript",
-    "Three.js",
-    "WebGL",
-    "Framer Motion",
-    "Node.js",
-    "Tailwind CSS",
+    "After Effects",
+    "Blender",
+    "Maya",
+    "Premiere Pro",
+    "Figma",
+    "Cinema 4D",
+    "Substance 3D",
+    "UI/UX Design",
   ];
 
   return (
@@ -60,7 +61,7 @@ export function AboutSection() {
           {/* Section label */}
           <div className="col-span-4 md:col-span-2 lg:col-span-3 mb-12 md:mb-0">
             <span className="font-nohemi text-xs font-medium uppercase tracking-[0.3em] text-white/40">
-              About
+              关于我
             </span>
             <div className="mt-4 w-12 h-px bg-white/20" />
           </div>
@@ -70,7 +71,7 @@ export function AboutSection() {
             {/* Encrypted header */}
             <h2 className="font-harmond text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-white mb-8">
               <EncryptedText
-                text="The Creative Mind"
+                text="动画与视界"
                 encryptedClassName="text-white/30"
                 revealedClassName="text-white"
                 revealDelayMs={40}
@@ -80,25 +81,24 @@ export function AboutSection() {
             {/* Bio paragraphs */}
             <div className="space-y-6 font-nohemi text-lg md:text-xl leading-relaxed text-white/60 max-w-3xl">
               <p>
-                I&apos;m a creative developer passionate about building{" "}
+                我是一名充满热情的动画设计师，致力于创造{" "}
                 <GlowText className="text-white">
-                  exceptional digital experiences
+                  令人惊叹的视觉体验
                 </GlowText>{" "}
-                that push the boundaries of what&apos;s possible on the web.
+                ，不断探索动态影像与交互设计的边界。
               </p>
 
               <p>
-                My approach combines{" "}
-                <GlowText className="text-white">Swiss design principles</GlowText>{" "}
-                with cutting-edge technology to create work that&apos;s both
-                beautiful and performant.
+                我的创作融合了{" "}
+                <GlowText className="text-white">极简的设计美学</GlowText>{" "}
+                与前沿的动画技术，力求让每一个作品在视觉上极具张力，在体验上流畅自然。
               </p>
             </div>
 
             {/* Skills grid */}
             <div className="mt-16">
               <h3 className="font-nohemi text-xs font-medium uppercase tracking-[0.3em] text-white/40 mb-6">
-                Technologies
+                常用软件与技术
               </h3>
               <div className="flex flex-wrap gap-3">
                 {skills.map((skill) => (
@@ -121,10 +121,10 @@ export function AboutSection() {
             {/* Stats */}
             <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
               {[
-                { value: "5+", label: "Years Experience" },
-                { value: "50+", label: "Projects Completed" },
-                { value: "30+", label: "Happy Clients" },
-                { value: "∞", label: "Cups of Coffee" },
+                { value: "3+", label: "年学习经验" },
+                { value: "20+", label: "完成项目" },
+                { value: "10+", label: "合作客户" },
+                { value: "∞", label: "杯咖啡" },
               ].map((stat) => (
                 <div key={stat.label} className="text-center md:text-left">
                   <div className="font-harmond text-4xl md:text-5xl font-bold text-white">
