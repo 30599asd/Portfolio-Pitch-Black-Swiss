@@ -144,7 +144,7 @@ const CornerBrackets = memo(function CornerBrackets() {
 });
 
 export function HeroSection() {
-  // 这里我把英文改成了适合动画专业的词汇，依然保留酷炫的翻页特效
+  // 保持原有的中文翻转词
   const words = [
     "动画短片",
     "视觉故事", 
@@ -198,11 +198,10 @@ export function HeroSection() {
               transition: 'opacity 0.6s ease-out 0.2s, transform 0.6s ease-out 0.2s',
             }}
           >
-            Motion Designer
+            动态设计师 {/* 原为 Motion Designer */}
           </p>
 
           {/* Main headline */}
-          {/* 注意：这里的主标题如果不确定中文字体渲染效果，建议保留英文大写，我改成了 ANIMATING (动画制作) */}
           <h1
             className="font-harmond text-6xl sm:text-7xl md:text-8xl lg:text-[10rem] xl:text-[12rem] font-bold tracking-tight leading-[0.85] text-white"
             style={{
@@ -212,7 +211,7 @@ export function HeroSection() {
               textShadow: '0 0 80px rgba(255,255,255,0.1)',
             }}
           >
-            ANIMATING
+            动画设计 {/* 原为 ANIMATING */}
           </h1>
 
           {/* Flip words line */}
