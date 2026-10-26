@@ -24,23 +24,23 @@ const nohemi = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Creative Developer | Digital Noir Portfolio",
+  title: "创意开发者 | 暗黑风个人作品集", // 原为 Creative Developer | Digital Noir Portfolio
   description:
-    "Award-winning creative developer specializing in interactive digital experiences, high-end UI, and 3D web development.",
+    "屡获殊荣的创意开发者，专注于互动数字体验、高端 UI 界面与 3D 网页开发。",
   keywords: [
-    "Creative Developer",
-    "Web Developer",
-    "UI/UX",
+    "创意开发者",
+    "前端开发",
+    "UI/UX 设计",
     "Three.js",
     "React",
     "Next.js",
-    "Portfolio",
+    "个人作品集",
   ],
-  authors: [{ name: "Creative Developer" }],
+  authors: [{ name: "张三" }], // 建议改成客户的名字
   openGraph: {
-    title: "Creative Developer | Digital Noir Portfolio",
+    title: "创意开发者 | 暗黑风个人作品集",
     description:
-      "Award-winning creative developer specializing in interactive digital experiences.",
+      "屡获殊荣的创意开发者，专注于互动数字体验。",
     type: "website",
   },
 };
@@ -58,7 +58,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="zh-CN" // 修改了语言属性
       className={`${harmond.variable} ${nohemi.variable} dark`}
       suppressHydrationWarning
     >
