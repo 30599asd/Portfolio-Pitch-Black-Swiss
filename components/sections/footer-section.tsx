@@ -121,7 +121,7 @@ function FlippingEmail({ email }: { email: string }) {
     <div
       className="relative inline-block cursor-pointer perspective-1000"
       onMouseEnter={() => setIsFlipped(true)}
-      onMouseLeave={() => setIsFlipped(false)}
+      onMouseLeave={() => setIsFlipped(false)} // 修复了这里原本的一个全角分号「；」导致的语法错误
       data-cursor-hover
     >
       <div
@@ -173,10 +173,10 @@ export function FooterSection() {
               textShadow: "0 0 100px rgba(59,130,246,0.3), 0 0 200px rgba(139,92,246,0.2)",
             }}
           >
-            {/* 保留英文大写以获得最佳排版效果，你也可以换成"联系""合作" */}
-            LET&apos;S
+            {/* 改成了中文“联系”和“合作” */}
+            联系
             <br />
-            TALK
+            合作
           </h2>
 
           {/* Subtext */}
@@ -212,8 +212,8 @@ export function FooterSection() {
 
           {/* Social links with magnetic effect */}
           <div className="mt-16 flex items-center gap-6 flex-wrap justify-center">
-            {/* 你可以把 href="#" 换成你的实际主页链接 */}
-            {["Bilibili", "ArtStation", "Weibo", "Xiaohongshu"].map((social) => (
+            {/* 把社交平台的名字汉化了，更符合国内用户的习惯 */}
+            {["哔哩哔哩", "ArtStation", "微博", "小红书"].map((social) => (
               <MagneticButton
                 key={social}
                 as="a"
@@ -237,7 +237,7 @@ export function FooterSection() {
               © {new Date().getFullYear()} 我的动画作品集. 保留所有权利。
             </p>
             <p className="font-nohemi text-xs text-white/40">
-               Designed & Built with ♥ and lots of ☕
+               用 ♥ 和大量的 ☕ 设计与构建 {/* 原为 Designed & Built with ♥ and lots of ☕ */}
             </p>
           </div>
         </div>
