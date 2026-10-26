@@ -7,29 +7,27 @@ export function ProcessSection() {
   const timelineData = [
     {
       title: "01",
-      date: "Discovery",
+      date: "探索阶段", // 原为 Discovery
       content: (
         <div className="space-y-4">
           <h4 className="font-harmond text-2xl md:text-3xl font-bold text-white">
-            Understanding Your Vision
+            深入了解您的需求 {/* 原为 Understanding Your Vision */}
           </h4>
           <p className="font-nohemi text-base text-white/60 max-w-lg">
-            Every great project starts with deep understanding. I dive into your
-            goals, audience, and requirements to craft a strategic foundation
-            that ensures success.
+            每一个伟大的项目都始于深入的了解。我会深入分析您的目标、受众和需求，为您制定确保成功的战略基础。
           </p>
           <ul className="space-y-2 font-nohemi text-sm text-white/50">
             <li className="flex items-center gap-2">
               <span className="w-1 h-1 rounded-full bg-accent-blue" />
-              Research & Analysis
+              研究与分析 {/* 原为 Research & Analysis */}
             </li>
             <li className="flex items-center gap-2">
               <span className="w-1 h-1 rounded-full bg-accent-blue" />
-              Competitive Audit
+              竞品分析 {/* 原为 Competitive Audit */}
             </li>
             <li className="flex items-center gap-2">
               <span className="w-1 h-1 rounded-full bg-accent-blue" />
-              User Journey Mapping
+              用户旅程地图 {/* 原为 User Journey Mapping */}
             </li>
           </ul>
         </div>
@@ -37,29 +35,27 @@ export function ProcessSection() {
     },
     {
       title: "02",
-      date: "Design",
+      date: "设计阶段", // 原为 Design
       content: (
         <div className="space-y-4">
           <h4 className="font-harmond text-2xl md:text-3xl font-bold text-white">
-            Crafting the Experience
+            打造极致体验 {/* 原为 Crafting the Experience */}
           </h4>
           <p className="font-nohemi text-base text-white/60 max-w-lg">
-            Using Swiss design principles and modern aesthetics, I create
-            wireframes and high-fidelity designs that balance beauty with
-            functionality.
+            运用瑞士设计原则和现代美学，我创建出兼顾美观与功能的线框图和高质量设计稿。
           </p>
           <ul className="space-y-2 font-nohemi text-sm text-white/50">
             <li className="flex items-center gap-2">
               <span className="w-1 h-1 rounded-full bg-accent-blue" />
-              Wireframing & Prototyping
+              线框图与原型设计 {/* 原为 Wireframing & Prototyping */}
             </li>
             <li className="flex items-center gap-2">
               <span className="w-1 h-1 rounded-full bg-accent-blue" />
-              Visual Design System
+              视觉设计系统 {/* 原为 Visual Design System */}
             </li>
             <li className="flex items-center gap-2">
               <span className="w-1 h-1 rounded-full bg-accent-blue" />
-              Motion Design
+              动态设计 {/* 原为 Motion Design */}
             </li>
           </ul>
         </div>
@@ -67,29 +63,27 @@ export function ProcessSection() {
     },
     {
       title: "03",
-      date: "Development",
+      date: "开发阶段", // 原为 Development
       content: (
         <div className="space-y-4">
           <h4 className="font-harmond text-2xl md:text-3xl font-bold text-white">
-            Building with Precision
+            精准构建 {/* 原为 Building with Precision */}
           </h4>
           <p className="font-nohemi text-base text-white/60 max-w-lg">
-            Clean, performant code is the backbone of every project. I use
-            modern frameworks and best practices to build experiences that are
-            fast, accessible, and scalable.
+            整洁、高效的代码是每个项目的基石。我使用现代框架和最佳实践来构建快速、易用且可扩展的体验。
           </p>
           <ul className="space-y-2 font-nohemi text-sm text-white/50">
             <li className="flex items-center gap-2">
               <span className="w-1 h-1 rounded-full bg-accent-blue" />
-              React & Next.js Development
+              React & Next.js 开发 {/* 原为 React & Next.js Development */}
             </li>
             <li className="flex items-center gap-2">
               <span className="w-1 h-1 rounded-full bg-accent-blue" />
-              Three.js & WebGL Integration
+              Three.js & WebGL 集成 {/* 原为 Three.js & WebGL Integration */}
             </li>
             <li className="flex items-center gap-2">
               <span className="w-1 h-1 rounded-full bg-accent-blue" />
-              Performance Optimization
+              性能优化 {/* 原为 Performance Optimization */}
             </li>
           </ul>
         </div>
@@ -97,29 +91,27 @@ export function ProcessSection() {
     },
     {
       title: "04",
-      date: "Launch",
+      date: "上线交付", // 原为 Launch
       content: (
         <div className="space-y-4">
           <h4 className="font-harmond text-2xl md:text-3xl font-bold text-white">
-            Delivering Excellence
+            卓越交付 {/* 原为 Delivering Excellence */}
           </h4>
           <p className="font-nohemi text-base text-white/60 max-w-lg">
-            A successful launch is just the beginning. I ensure smooth
-            deployment, comprehensive testing, and ongoing support to keep your
-            project running flawlessly.
+            成功上线只是开始。我确保平滑部署、全面测试和持续支持，让您的项目始终保持完美运行。
           </p>
           <ul className="space-y-2 font-nohemi text-sm text-white/50">
             <li className="flex items-center gap-2">
               <span className="w-1 h-1 rounded-full bg-accent-blue" />
-              Quality Assurance
+              质量保证 {/* 原为 Quality Assurance */}
             </li>
             <li className="flex items-center gap-2">
               <span className="w-1 h-1 rounded-full bg-accent-blue" />
-              Deployment & CI/CD
+              部署与 CI/CD {/* 原为 Deployment & CI/CD */}
             </li>
             <li className="flex items-center gap-2">
               <span className="w-1 h-1 rounded-full bg-accent-blue" />
-              Ongoing Maintenance
+              持续维护 {/* 原为 Ongoing Maintenance */}
             </li>
           </ul>
         </div>
@@ -140,14 +132,13 @@ export function ProcessSection() {
         <div className="mb-16 md:mb-24 max-w-7xl mx-auto px-4 md:px-8 lg:px-10">
           <div>
             <span className="font-nohemi text-xs font-medium uppercase tracking-[0.3em] text-white/40 block mb-4">
-              How I Work
+              我的工作方式 {/* 原为 How I Work */}
             </span>
             <h2 className="font-harmond text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-6">
-              Process
+              工作流程 {/* 原为 Process */}
             </h2>
             <p className="font-nohemi text-lg text-white/50 max-w-xl">
-              A refined methodology that ensures every project is delivered with
-              the highest quality and attention to detail.
+              一套经过精心打磨的方法论，确保每个项目都能以最高品质和细节关注交付。
             </p>
           </div>
         </div>
