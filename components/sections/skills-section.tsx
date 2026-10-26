@@ -72,43 +72,43 @@ export function SkillsSection() {
     {
       area: "md:[grid-area:1/1/2/7] xl:[grid-area:1/1/2/5]",
       icon: <IconCode className="h-6 w-6 text-accent-blue" />,
-      title: "Frontend Development",
+      title: "前端开发", // 原为 Frontend Development
       description:
-        "Building performant, accessible web applications with React, Next.js, and TypeScript.",
+        "使用 React、Next.js 和 TypeScript 构建高性能、无障碍的 Web 应用程序。",
     },
     {
       area: "md:[grid-area:1/7/2/13] xl:[grid-area:2/1/3/5]",
       icon: <IconPalette className="h-6 w-6 text-accent-blue" />,
-      title: "UI/UX Design",
+      title: "UI/UX 设计", // 原为 UI/UX Design
       description:
-        "Creating intuitive interfaces with a focus on user experience and modern aesthetics.",
+        "专注于用户体验和现代美学，打造直观的界面设计。",
     },
     {
       area: "md:[grid-area:2/1/3/7] xl:[grid-area:1/5/3/8]",
       icon: <IconBrandThreejs className="h-6 w-6 text-accent-blue" />,
-      title: "3D & WebGL",
+      title: "3D 与 WebGL", // 原为 3D & WebGL
       description:
-        "Crafting immersive 3D experiences with Three.js, React Three Fiber, and custom shaders.",
+        "使用 Three.js、React Three Fiber 和自定义着色器打造沉浸式的 3D 体验。",
     },
     {
       area: "md:[grid-area:2/7/3/13] xl:[grid-area:1/8/2/13]",
       icon: <IconDeviceLaptop className="h-6 w-6 text-accent-blue" />,
-      title: "Responsive Design",
+      title: "响应式设计", // 原为 Responsive Design
       description:
-        "Ensuring flawless experiences across all devices and screen sizes.",
+        "确保在所有设备和屏幕尺寸上都能获得完美的体验。",
     },
     {
       area: "md:[grid-area:3/1/4/7] xl:[grid-area:2/8/3/10]",
       icon: <IconRocket className="h-6 w-6 text-accent-blue" />,
-      title: "Performance",
-      description: "Optimizing for 60fps animations and sub-second load times.",
+      title: "性能优化", // 原为 Performance
+      description: "针对 60fps 动画和亚秒级加载时间进行深度优化。",
     },
     {
       area: "md:[grid-area:3/7/4/13] xl:[grid-area:2/10/3/13]",
       icon: <IconApiApp className="h-6 w-6 text-accent-blue" />,
-      title: "API Integration",
+      title: "API 集成", // 原为 API Integration
       description:
-        "Seamless integration with REST APIs, GraphQL, and third-party services.",
+        "与 REST API、GraphQL 和第三方服务实现无缝集成。",
     },
   ];
 
@@ -122,14 +122,13 @@ export function SkillsSection() {
         <div className="mb-16 md:mb-24">
           <div>
             <span className="font-nohemi text-xs font-medium uppercase tracking-[0.3em] text-white/40 block mb-4">
-              Expertise
+              专业领域 {/* 原为 Expertise */}
             </span>
             <h2 className="font-harmond text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-white mb-6">
-              Skills & Services
+              技能与服务 {/* 原为 Skills & Services */}
             </h2>
             <p className="font-nohemi text-lg text-white/50 max-w-xl">
-              A comprehensive skill set refined through years of building
-              digital products for startups and enterprises alike.
+              经过多年为初创企业和大型企业构建数字产品而打磨的全面技能组合。
             </p>
           </div>
         </div>
